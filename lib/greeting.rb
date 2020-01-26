@@ -1,5 +1,6 @@
 # code the #greeting method here!
 
 def greeting (name)
-  puts "Hello #{name.trim()}. It's nice to meet you."
+  name = name.trim()
+  puts "Hello #{name}. It's nice to meet you."
 end
