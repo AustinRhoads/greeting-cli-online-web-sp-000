@@ -3,5 +3,5 @@ def squish!
   gsub(/\A[[:space:]]+/,"")
 end
 def greeting (name)
-  puts "Hello #{name.squeeze("")}. It's nice to meet you."
+  puts "Hello #{name.squish!}. It's nice to meet you."
 end
